@@ -1,8 +1,9 @@
 
 import Navbar from './components/Navbar';
-import Hero from './pages/Hero';
+import Hero from './components/Hero';
 import Separator from './components/Separator';
-import About from './pages/About';
+import About from './components/About';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Separator />
       <About />
+      <Products />
 
     </div>
   );
